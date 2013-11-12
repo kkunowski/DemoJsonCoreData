@@ -1,0 +1,3 @@
+  pod 'Nocilla'
+  pod 'SLRESTfulCoreData'
+

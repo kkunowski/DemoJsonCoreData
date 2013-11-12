@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52FA503E37C51E403D0FBE4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FA5F300F18D6EE54E08C35 /* Foundation.framework */; };
+		52FA517963D15ECF17918261 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FA52400DB4A9E47D610F8B /* UIKit.framework */; };
+		52FA52248302034A0178B7AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FA5FE02E1C4E01E49FB91B /* Main.storyboard */; };
+		52FA525243AFE64A42CABF9C /* JCDStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA51F2F6D10D6CF1FDE6B0 /* JCDStoreManager.m */; };
+		52FA52E827266BE0398F86AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52FA539DCB5375F10C95879D /* InfoPlist.strings */; };
+		52FA534F0AE8F130E339FFC5 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA5711CB5E22881200C954 /* Contact.m */; };
+		52FA544000858C09E48DCB3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FA57D3480F793350EFE0FB /* CoreGraphics.framework */; };
+		52FA54C9C2DB0B4374F7DD2C /* JCDBackgroundQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA570D0CE852FD2801CD3C /* JCDBackgroundQueue.m */; };
+		52FA54F61E7EE0C939F402D4 /* DemoJsonCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52FA50D021AE3990C3C9559F /* DemoJsonCoreData.xcdatamodeld */; };
+		52FA57B2CC7B612B9AAACEBF /* DemoJsonCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA52322F816A1B12A5EF9F /* DemoJsonCoreDataTests.m */; };
+		52FA580B469A3FD367C2A7AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FA5F300F18D6EE54E08C35 /* Foundation.framework */; };
+		52FA58AAFDB7840CBDBB5A1F /* JCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA523B29A85B7044468585 /* JCDAppDelegate.m */; };
+		52FA5968220776088379C7C9 /* Contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 52FA5C432E5837337B7CA5A1 /* Contacts.json */; };
+		52FA59B599FC35D66A4CE4EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52FA525070C1743F716B2C72 /* InfoPlist.strings */; };
+		52FA5AF0CFD20587433A8D24 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FA541FE54D82C66A3318A7 /* XCTest.framework */; };
+		52FA5B2B08852A4984C40B5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FA52400DB4A9E47D610F8B /* UIKit.framework */; };
+		52FA5B9DB475622765AB569D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA595CFEEE72589B4D63C2 /* main.m */; };
+		52FA5BBFE254E12627F7C315 /* JCDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA5FD3BA50485A06BE9969 /* JCDMasterViewController.m */; };
+		52FA5C3783CB5A8D5F61C097 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FA52B6CF3EC5A5772B0E0D /* CoreData.framework */; };
+		52FA5C3D26BC6E426511B672 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FA52B6CF3EC5A5772B0E0D /* CoreData.framework */; };
+		52FA5E5716E67F8233FE4BBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FA533DED164BBDECDB27D7 /* Images.xcassets */; };
+		52FA5E81055E3C770C259024 /* MockRestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA56DE4B043034325A4B22 /* MockRestService.m */; };
+		AEC7723E26444A4F889600F0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC69DD168A1844A1AAC372A8 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52FA5F77E14A193A56B6A166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52FA58D49C85EF1C93B9AA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52FA55F32556507725E93CE9;
+			remoteInfo = DemoJsonCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39C38ED4366F47E2B185EFE9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		52FA50BECF2C7DEF1C932901 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52FA51F2F6D10D6CF1FDE6B0 /* JCDStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCDStoreManager.m; sourceTree = "<group>"; };
+		52FA52322F816A1B12A5EF9F /* DemoJsonCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoJsonCoreDataTests.m; sourceTree = "<group>"; };
+		52FA523B29A85B7044468585 /* JCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCDAppDelegate.m; sourceTree = "<group>"; };
+		52FA52400DB4A9E47D610F8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52FA527F2658FE0B81071175 /* DemoJsonCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoJsonCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FA52B6CF3EC5A5772B0E0D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		52FA533DED164BBDECDB27D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52FA541FE54D82C66A3318A7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		52FA5542618FDDC1B375BE60 /* JCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCDAppDelegate.h; sourceTree = "<group>"; };
+		52FA567CC44442E1C3779EBF /* DemoJsonCoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "DemoJsonCoreDataTests-Info.plist"; sourceTree = "<group>"; };
+		52FA56D74D0CD25936C629A1 /* DemoJsonCoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoJsonCoreData-Prefix.pch"; sourceTree = "<group>"; };
+		52FA56DE4B043034325A4B22 /* MockRestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockRestService.m; sourceTree = "<group>"; };
+		52FA56F083C4FC4B61F372F3 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contact.h; path = DemoJsonCoreData/Contact.h; sourceTree = SOURCE_ROOT; };
+		52FA570D0CE852FD2801CD3C /* JCDBackgroundQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCDBackgroundQueue.m; sourceTree = "<group>"; };
+		52FA5711CB5E22881200C954 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		52FA57D3480F793350EFE0FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52FA591500EAD078B4BD2C18 /* DemoJsonCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoJsonCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FA595CFEEE72589B4D63C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52FA5972546D955159329A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52FA5BA94121347890CE63F0 /* GlobalDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDefs.h; sourceTree = "<group>"; };
+		52FA5C432E5837337B7CA5A1 /* Contacts.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = Contacts.json; sourceTree = "<group>"; };
+		52FA5C4DEC128572A75F91BA /* MockRestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockRestService.h; sourceTree = "<group>"; };
+		52FA5CCEF3A8BF901E651E37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52FA5DA129B0BA230DA7BCC5 /* JCDBackgroundQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDBackgroundQueue.h; sourceTree = "<group>"; };
+		52FA5E2CBF08E79DB83C2B92 /* DemoJsonCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoJsonCoreData.xcdatamodel; sourceTree = "<group>"; };
+		52FA5E6ECDED9281556D3EDF /* JCDMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCDMasterViewController.h; sourceTree = "<group>"; };
+		52FA5EF95A9EADC8D18D08CB /* DemoJsonCoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "DemoJsonCoreData-Info.plist"; sourceTree = "<group>"; };
+		52FA5F300F18D6EE54E08C35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52FA5F6CF0403DF5F6C474A6 /* JCDStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDStoreManager.h; sourceTree = "<group>"; };
+		52FA5FD3BA50485A06BE9969 /* JCDMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCDMasterViewController.m; sourceTree = "<group>"; };
+		5F1DEFFCE0ED452487AFC8F2 /* Pods-DemoJsonCoreData.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoJsonCoreData.xcconfig"; path = "Pods/Pods-DemoJsonCoreData.xcconfig"; sourceTree = "<group>"; };
+		9F3F50AADCC24C6B90FDF512 /* Pods-DemoJsonCoreDataTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoJsonCoreDataTests.xcconfig"; path = "Pods/Pods-DemoJsonCoreDataTests.xcconfig"; sourceTree = "<group>"; };
+		AC69DD168A1844A1AAC372A8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52FA57C72BAAE1F8267EF5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FA5AF0CFD20587433A8D24 /* XCTest.framework in Frameworks */,
+				52FA580B469A3FD367C2A7AE /* Foundation.framework in Frameworks */,
+				52FA5B2B08852A4984C40B5F /* UIKit.framework in Frameworks */,
+				52FA5C3D26BC6E426511B672 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FA5E0B78D779359AB6CB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FA503E37C51E403D0FBE4C /* Foundation.framework in Frameworks */,
+				52FA544000858C09E48DCB3A /* CoreGraphics.framework in Frameworks */,
+				52FA517963D15ECF17918261 /* UIKit.framework in Frameworks */,
+				52FA5C3783CB5A8D5F61C097 /* CoreData.framework in Frameworks */,
+				AEC7723E26444A4F889600F0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52FA50AD8A82D4E8D98FC87D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52FA5F300F18D6EE54E08C35 /* Foundation.framework */,
+				52FA57D3480F793350EFE0FB /* CoreGraphics.framework */,
+				52FA52400DB4A9E47D610F8B /* UIKit.framework */,
+				52FA52B6CF3EC5A5772B0E0D /* CoreData.framework */,
+				52FA541FE54D82C66A3318A7 /* XCTest.framework */,
+				AC69DD168A1844A1AAC372A8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52FA51A2E1D85A5E1BF11053 /* MockService */ = {
+			isa = PBXGroup;
+			children = (
+				52FA56DE4B043034325A4B22 /* MockRestService.m */,
+				52FA5C4DEC128572A75F91BA /* MockRestService.h */,
+				52FA5C432E5837337B7CA5A1 /* Contacts.json */,
+			);
+			path = MockService;
+			sourceTree = "<group>";
+		};
+		52FA51C3E20D92690FEB81C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52FA5EF95A9EADC8D18D08CB /* DemoJsonCoreData-Info.plist */,
+				52FA539DCB5375F10C95879D /* InfoPlist.strings */,
+				52FA595CFEEE72589B4D63C2 /* main.m */,
+				52FA56D74D0CD25936C629A1 /* DemoJsonCoreData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52FA53E37211AED143BCD357 = {
+			isa = PBXGroup;
+			children = (
+				52FA542DD9B779EF4414AACE /* Products */,
+				52FA50AD8A82D4E8D98FC87D /* Frameworks */,
+				52FA546E5496E0BD0E327E24 /* DemoJsonCoreData */,
+				52FA5AE636F399D8B2325A99 /* DemoJsonCoreDataTests */,
+				39C38ED4366F47E2B185EFE9 /* Pods.xcconfig */,
+				5F1DEFFCE0ED452487AFC8F2 /* Pods-DemoJsonCoreData.xcconfig */,
+				9F3F50AADCC24C6B90FDF512 /* Pods-DemoJsonCoreDataTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		52FA542DD9B779EF4414AACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52FA591500EAD078B4BD2C18 /* DemoJsonCoreData.app */,
+				52FA527F2658FE0B81071175 /* DemoJsonCoreDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52FA546E5496E0BD0E327E24 /* DemoJsonCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				52FA51C3E20D92690FEB81C3 /* Supporting Files */,
+				52FA5542618FDDC1B375BE60 /* JCDAppDelegate.h */,
+				52FA523B29A85B7044468585 /* JCDAppDelegate.m */,
+				52FA533DED164BBDECDB27D7 /* Images.xcassets */,
+				52FA50D021AE3990C3C9559F /* DemoJsonCoreData.xcdatamodeld */,
+				52FA5FE02E1C4E01E49FB91B /* Main.storyboard */,
+				52FA5E6ECDED9281556D3EDF /* JCDMasterViewController.h */,
+				52FA5FD3BA50485A06BE9969 /* JCDMasterViewController.m */,
+				52FA570D0CE852FD2801CD3C /* JCDBackgroundQueue.m */,
+				52FA5DA129B0BA230DA7BCC5 /* JCDBackgroundQueue.h */,
+				52FA51F2F6D10D6CF1FDE6B0 /* JCDStoreManager.m */,
+				52FA5F6CF0403DF5F6C474A6 /* JCDStoreManager.h */,
+				52FA55C43F36C33836D4F858 /* Model */,
+				52FA5BA94121347890CE63F0 /* GlobalDefs.h */,
+				52FA51A2E1D85A5E1BF11053 /* MockService */,
+			);
+			path = DemoJsonCoreData;
+			sourceTree = "<group>";
+		};
+		52FA55C43F36C33836D4F858 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52FA5711CB5E22881200C954 /* Contact.m */,
+				52FA56F083C4FC4B61F372F3 /* Contact.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52FA57E90C97D9FF16B1E13B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52FA567CC44442E1C3779EBF /* DemoJsonCoreDataTests-Info.plist */,
+				52FA525070C1743F716B2C72 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52FA5AE636F399D8B2325A99 /* DemoJsonCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				52FA57E90C97D9FF16B1E13B /* Supporting Files */,
+				52FA52322F816A1B12A5EF9F /* DemoJsonCoreDataTests.m */,
+			);
+			path = DemoJsonCoreDataTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52FA535F31907CAB017F5518 /* DemoJsonCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FA5A6E6F1F55FC4A419C2A /* Build configuration list for PBXNativeTarget "DemoJsonCoreDataTests" */;
+			buildPhases = (
+				52948E8A0F194C53984283FE /* Check Pods Manifest.lock */,
+				52FA5E38E051FA778CF84FDA /* Sources */,
+				52FA57C72BAAE1F8267EF5AF /* Frameworks */,
+				52FA558AE0DAAD8630A30F73 /* Resources */,
+				2B42203202764CE0982EBA51 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52FA5ECACA369F54AB25A77A /* PBXTargetDependency */,
+			);
+			name = DemoJsonCoreDataTests;
+			productName = DemoJsonCoreDataTests;
+			productReference = 52FA527F2658FE0B81071175 /* DemoJsonCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52FA55F32556507725E93CE9 /* DemoJsonCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FA5F7E8CF8D6B2D4859D8F /* Build configuration list for PBXNativeTarget "DemoJsonCoreData" */;
+			buildPhases = (
+				63DAA9748CE94B71B813F6A8 /* Check Pods Manifest.lock */,
+				52FA53BFCAAC2944EF3FA4F3 /* Sources */,
+				52FA5E0B78D779359AB6CB40 /* Frameworks */,
+				52FA5CF79173690BB5D3D497 /* Resources */,
+				1C9A92BEE0624AAB9C274D0F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoJsonCoreData;
+			productName = DemoJsonCoreData;
+			productReference = 52FA591500EAD078B4BD2C18 /* DemoJsonCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52FA58D49C85EF1C93B9AA07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Krzysztof Kunowski";
+			};
+			buildConfigurationList = 52FA5A1D4E93BB235D505631 /* Build configuration list for PBXProject "DemoJsonCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52FA53E37211AED143BCD357;
+			productRefGroup = 52FA542DD9B779EF4414AACE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				52FA55F32556507725E93CE9 /* DemoJsonCoreData */,
+				52FA535F31907CAB017F5518 /* DemoJsonCoreDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52FA558AE0DAAD8630A30F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FA59B599FC35D66A4CE4EE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FA5CF79173690BB5D3D497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FA52E827266BE0398F86AB /* InfoPlist.strings in Resources */,
+				52FA5E5716E67F8233FE4BBA /* Images.xcassets in Resources */,
+				52FA52248302034A0178B7AE /* Main.storyboard in Resources */,
+				52FA5968220776088379C7C9 /* Contacts.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C9A92BEE0624AAB9C274D0F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B42203202764CE0982EBA51 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-DemoJsonCoreDataTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52948E8A0F194C53984283FE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63DAA9748CE94B71B813F6A8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52FA53BFCAAC2944EF3FA4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FA5B9DB475622765AB569D /* main.m in Sources */,
+				52FA58AAFDB7840CBDBB5A1F /* JCDAppDelegate.m in Sources */,
+				52FA54F61E7EE0C939F402D4 /* DemoJsonCoreData.xcdatamodeld in Sources */,
+				52FA5BBFE254E12627F7C315 /* JCDMasterViewController.m in Sources */,
+				52FA54C9C2DB0B4374F7DD2C /* JCDBackgroundQueue.m in Sources */,
+				52FA525243AFE64A42CABF9C /* JCDStoreManager.m in Sources */,
+				52FA534F0AE8F130E339FFC5 /* Contact.m in Sources */,
+				52FA5E81055E3C770C259024 /* MockRestService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FA5E38E051FA778CF84FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FA57B2CC7B612B9AAACEBF /* DemoJsonCoreDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52FA5ECACA369F54AB25A77A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52FA55F32556507725E93CE9 /* DemoJsonCoreData */;
+			targetProxy = 52FA5F77E14A193A56B6A166 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52FA525070C1743F716B2C72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FA50BECF2C7DEF1C932901 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52FA539DCB5375F10C95879D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FA5CCEF3A8BF901E651E37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52FA5FE02E1C4E01E49FB91B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FA5972546D955159329A15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52FA5189A73CE9DEB0CC3C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C38ED4366F47E2B185EFE9 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoJsonCoreData/DemoJsonCoreData-Prefix.pch";
+				INFOPLIST_FILE = "DemoJsonCoreData/DemoJsonCoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52FA55A666A35093322E3F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52FA57301D6B589CB7269DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52FA590EA514387F25AD6873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3F50AADCC24C6B90FDF512 /* Pods-DemoJsonCoreDataTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoJsonCoreData/DemoJsonCoreData-Prefix.pch";
+				INFOPLIST_FILE = "DemoJsonCoreDataTests/DemoJsonCoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		52FA59DDA972DFDCADBB0021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3F50AADCC24C6B90FDF512 /* Pods-DemoJsonCoreDataTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoJsonCoreData/DemoJsonCoreData-Prefix.pch";
+				INFOPLIST_FILE = "DemoJsonCoreDataTests/DemoJsonCoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		52FA5F48FBFFBFDB4AA3F5EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C38ED4366F47E2B185EFE9 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoJsonCoreData/DemoJsonCoreData-Prefix.pch";
+				INFOPLIST_FILE = "DemoJsonCoreData/DemoJsonCoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52FA5A1D4E93BB235D505631 /* Build configuration list for PBXProject "DemoJsonCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FA57301D6B589CB7269DC7 /* Release */,
+				52FA55A666A35093322E3F4A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FA5A6E6F1F55FC4A419C2A /* Build configuration list for PBXNativeTarget "DemoJsonCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FA590EA514387F25AD6873 /* Release */,
+				52FA59DDA972DFDCADBB0021 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FA5F7E8CF8D6B2D4859D8F /* Build configuration list for PBXNativeTarget "DemoJsonCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FA5189A73CE9DEB0CC3C05 /* Release */,
+				52FA5F48FBFFBFDB4AA3F5EB /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52FA50D021AE3990C3C9559F /* DemoJsonCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52FA5E2CBF08E79DB83C2B92 /* DemoJsonCoreData.xcdatamodel */,
+			);
+			currentVersion = 52FA5E2CBF08E79DB83C2B92 /* DemoJsonCoreData.xcdatamodel */;
+			path = DemoJsonCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52FA58D49C85EF1C93B9AA07 /* Project object */;
+}

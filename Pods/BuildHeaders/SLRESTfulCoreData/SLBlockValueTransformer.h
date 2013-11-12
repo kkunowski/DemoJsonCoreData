@@ -1,0 +1,1 @@
+../../SLRESTfulCoreData/SLRESTfulCoreData/SLRESTfulCoreData/NSValueTransformers/SLBlockValueTransformer.h

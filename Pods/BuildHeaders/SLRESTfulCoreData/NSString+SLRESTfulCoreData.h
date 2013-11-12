@@ -1,0 +1,1 @@
+../../SLRESTfulCoreData/SLRESTfulCoreData/SLRESTfulCoreData/Framework Additions/Foundation/NSString/NSString+SLRESTfulCoreData.h

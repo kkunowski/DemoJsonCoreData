@@ -1,0 +1,28 @@
+PODS:
+  - AFNetworking (1.3.3)
+  - AFRESTfulCoreDataBackgroundQueue (1.0.1):
+    - AFNetworking (>= 1.2.1)
+    - SLRESTfulCoreData (>= 1.0.0)
+  - Nocilla (0.7.1)
+  - SLCoreDataStack (0.3.2)
+  - SLRESTfulCoreData (1.3.4):
+    - SLRESTfulCoreData/Complete
+  - SLRESTfulCoreData/Complete (1.3.4):
+    - AFNetworking (~> 1.3.1)
+    - AFRESTfulCoreDataBackgroundQueue (>= 1.0.1)
+    - SLCoreDataStack (>= 0.2.0)
+    - SLRESTfulCoreData/Core
+  - SLRESTfulCoreData/Core (1.3.4)
+
+DEPENDENCIES:
+  - Nocilla
+  - SLRESTfulCoreData
+
+SPEC CHECKSUMS:
+  AFNetworking: 0700ec7a58c36ad217173e167f6e4df7270df66b
+  AFRESTfulCoreDataBackgroundQueue: a1369f66fdb8c3712e348ae18c8db3489cc9ae0e
+  Nocilla: 79bf72b15b7e6589d3d37ffa7540d7271fb75121
+  SLCoreDataStack: 06d83c3dc69560f97aa25402f345fb9fd36db9a1
+  SLRESTfulCoreData: b3656ae874caf758d6b91c375641a5dcb855229e
+
+COCOAPODS: 0.27.1
