@@ -6,14 +6,13 @@
 #import "AFRESTfulCoreDataBackgroundQueue.h"
 #import "SLRESTfulCoreData.h"
 #import "AFNetworking.h"
+
 /**
  @abstract  <#abstract comment#>
  */
 @interface JCDBackgroundQueue : AFRESTfulCoreDataBackgroundQueue
 
 @end
-
-
 
 /**
  @abstract  Singleton category

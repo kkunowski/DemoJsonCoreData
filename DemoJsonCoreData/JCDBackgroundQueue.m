@@ -25,7 +25,6 @@
 + (JCDBackgroundQueue *)sharedInstance
 {
     static JCDBackgroundQueue *_instance = nil;
-
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _instance = [[super allocWithZone:NULL] initWithBaseURL:[[NSURL alloc] initWithString:baseAPIUrl]];

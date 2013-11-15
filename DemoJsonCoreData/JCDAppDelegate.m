@@ -23,14 +23,12 @@
 
     // Override point for customization after application launch.
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+
     JCDMasterViewController *controller = (JCDMasterViewController *)navigationController.topViewController;
-
     [NSManagedObject setDefaultBackgroundQueue:[JCDBackgroundQueue sharedInstance]];
-
     [NSManagedObject registerDefaultBackgroundThreadManagedObjectContextWithAction:^NSManagedObjectContext *{
         return [JCDStoreManager sharedInstance].backgroundThreadManagedObjectContext;
     }];
-
     [NSManagedObject registerDefaultMainThreadManagedObjectContextWithAction:^NSManagedObjectContext *{
         return [JCDStoreManager sharedInstance].mainThreadManagedObjectContext;
     }];
